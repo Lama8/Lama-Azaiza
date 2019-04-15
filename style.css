@@ -1,3 +1,65 @@
-body{
-background: pink;
+html {
+ background: url(black&gold.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: arial;
 }
+
+.container{
+  height: 90%
+  width:95%;
+  margin: :auto;
+  overflow: hidden;
+  font-family:arial;
+}
+.container1{
+  position: fixed;
+  bottom: 0;
+}
+.container2{
+  position: fixed;
+  bottom: 65px;
+}
+nav{
+  padding-top: 20px;
+  }
+
+h2{
+  margin-top: 60px;
+  margin-bottom: 60px;
+   text-align: left;
+   width: 70%
+}
+
+
+
+  .basr-social-share {
+    position:fixed;
+    
+    left:0;
+    right:0;
+    width: 25%;
+    display: block;
+    text-align:left;
+    padding:0 auto;
+    margin:5em auto;
+  }
+
+  .social ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .social ul li {
+    border: 5px solid #512e12;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+    text-align:center;
+
+  }
