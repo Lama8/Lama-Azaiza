@@ -1,11 +1,71 @@
-<html>
-<head>
-<title>Lama Azaiza </title>
-<link href="style.css" type="text/css" rel="stylesheet">
-<body>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+  <head>
+    <meta charset="utf-8">
+    <!--To make sure that the website matches the user's visible area.-->
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+    <body>
+      <header>
 
 
-</body>
-</head>
+    </header>
+<div class="container">
+  <h1 align="left" style="color:#DAA520; border: 2px solid #512e12;font-size:40px;text-shadow: 0.5px 0.5px #FFFF66; font-family: Lobster, monospace">Lama Azaiza</h1>
+  <i class="fas fa-coffee" style="color:512e12"></i>
+  <p>
+    <h2 style="color:#ea7f2a; font-size:15px;font-family:Cursive,arial" align="left">
+I have graduated from the Technion-Israel Institute Of Technology.<br>
+I have B.Sc. in Industrial Engineering and Management with specialization in Information Systems.<br>
+I have been in love with coding since high school, that's why I have choose to learn engineering with specialization in Information Systems,
+and that's why I'm choosing this bootcamp today.<br>
+I'm a fresh graduate who didn’t start her career yet, so i thought it would be perfect to take advantage of the extra time that I have to
+ learn new things which could be a good thing to write in my applications or resumes.<br>
+I will always push my self beyond the limits and get out of the comfort zone because of that I have choose to learn engineering
+ and that's why I have choose to assign for this coding bootcamp.<br>
+ I had a great time while working on the prerequisites, and i hope that it would be more fun through the bootcamp :)<br>
+</h2>
+  </p>
+
+      <!-- <img class="img" src= "black&gold.jpg" id="currentImage">-->
+    <div class="container2">
+      <a href="index.html">
+        <button id="prev" style="background-color:#DAA520;border: 2px solid black" class="w3-btn w3-orange w3-xlarge">Previos
+          <i class=" fa fa-arrow-left"></i>
+        </button>
+      </a>
+
+      <a href="contact me.html">
+        <button id="prev" style="background-color:#DAA520;border: 2px solid black" class="w3-btn w3-orange w3-xlarge">Contact Me
+          <i class="fa fa-arrow-right"></i>
+        </button>
+      </a>
+    </div>
+
+
+       <section id=picture>
+         <div class="container1">
+           <h1 align="leftr" style="color:#DAA520; font-size:22px;font-family:Cursive,arial; text-shadow: 1px 1px #FFFF66">It always seems impossible until it's done.</h1>
+         </div>
+       </section>
+     </div>
+  </body>
 </html>
 
+<!--Javascript functions -->
+<script>
+   var srcArray = ["simple-light-blue.jpg", "black&gold.jpg"];
+
+   prev.onclick = function(){
+        document.getElementById("currentImage").src = srcArray[0];
+    }
+   next.onclick = function(){
+        document.getElementById("currentImage").src = srcArray[1];
+    }
+
+</script>
